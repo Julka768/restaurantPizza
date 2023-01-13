@@ -1,5 +1,18 @@
 @import "../../../styles.scss";
+.info {
+  text-align: center;
+  padding: 4%;
+}
+h1 {
+  font-size: 50px;
+  padding: 2%;
+}
 .pizza {
   margin: 0 auto;
   padding: 20px;
+  text-align: center;
+  color: white;
+}
+h2 {
+  font-size: 40px;
 }

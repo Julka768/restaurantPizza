@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { PizzaModule } from '../dupa/pizza/pizza.module';
+import { PizzaModule } from '../component-model/pizza/pizza.module';
 import { HomePageComponent } from './home-page.component';
 import { HomePageRouterModule } from './home-page.routing.module';
 

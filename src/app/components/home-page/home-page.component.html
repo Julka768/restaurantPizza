@@ -1,12 +1,89 @@
 <div class="container-home">
+  <div class="info">
+    <h1>Projekt Restaurant</h1>
+    <div>
+      <div>Obasz dostaw: Całe Trójmiasto</div>
+      <div>Godziny otwarcia: 12-24 Codziennie</div>
+      <div>Kontakt: 111-111-111</div>
+    </div>
+  </div>
   <div class="pizza">
+    <h2>Pizza</h2>
     <app-pizza
       [pizzaName]="'pizza mięsna'"
       [toppings]="
-        'sos pomidorowy, ser mozzarella, szynka, salami, kurczak, papryka'
+        'Sos pomidorowy, ser mozzarella, szynka, salami, kurczak, papryka'
       "
       [priceMini]="26"
       [priceBig]="40"
+    >
+    </app-pizza>
+    <app-pizza
+      [pizzaName]="'pizza gruszka'"
+      [toppings]="'Sos serowy, ser mozzarella, gruszka marynowana, gorgonzola'"
+      [priceMini]="28"
+      [priceBig]="47"
+    >
+    </app-pizza>
+    <app-pizza
+      [pizzaName]="'pizza salame picante'"
+      [toppings]="
+        'Sos pomidorowy, ser mozzarella, salame spianata, Nduja, papryka grilowana'
+      "
+      [priceMini]="35"
+      [priceBig]="45"
+    >
+    </app-pizza>
+    <app-pizza
+      [pizzaName]="'pizza salame napoli '"
+      [toppings]="
+        'Sos pomidorowy, ser mozzarella, salame napoli, czarne oliwki'
+      "
+      [priceMini]="28"
+      [priceBig]="47"
+    >
+    </app-pizza
+    ><app-pizza
+      [pizzaName]="'pizza margaritha '"
+      [toppings]="'Sos pomidorowy, ser mozzarella'"
+      [priceMini]="20"
+      [priceBig]="32"
+    >
+    </app-pizza>
+    <app-pizza
+      [pizzaName]="'pizza z tuńczykiem'"
+      [toppings]="
+        'Sos serowy, ser mozzarella, tuńczyk, kukurydza, cebula czerwona'
+      "
+      [priceMini]="28"
+      [priceBig]="47"
+    >
+    </app-pizza>
+    <app-pizza
+      [pizzaName]="'pizza na ostro'"
+      [toppings]="
+        'Sos pomidorowy, ser mozzarella, szynka cotto, salami spianata/napoli, pancetta, pieczarki, papryka jalapeno'
+      "
+      [priceMini]="37"
+      [priceBig]="56"
+    >
+    </app-pizza
+    ><app-pizza
+      [pizzaName]="'pizza wege'"
+      [toppings]="
+        'Sos pomidorowy, ser weganski, grillowane warzywa, czerwona cebula'
+      "
+      [priceMini]="32"
+      [priceBig]="52"
+    >
+    </app-pizza
+    ><app-pizza
+      [pizzaName]="'pizza z tofu'"
+      [toppings]="
+        'Sos pomidorowy, ser weganski, grillowane warzywa, czerwona cebula, tofu'
+      "
+      [priceMini]="34"
+      [priceBig]="54"
     >
     </app-pizza>
   </div>
