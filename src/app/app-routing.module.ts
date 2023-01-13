@@ -1,8 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AccountComponent } from './components/account/account.component';
-import { PizzaComponent } from './components/dupa/pizza/pizza.component';
-import { HomePageComponent } from './components/home-page/home-page.component';
 
 const defaultPath = 'home-page';
 const routes: Routes = [
@@ -20,7 +17,10 @@ const routes: Routes = [
         (m) => m.AccountModule
       ),
   },
-  { path: 'pizza', component: PizzaComponent },
+  // { path: 'pizza', loadChildren: () =>
+  // import('./components/account/account.module').then(
+  //   (m) => m.AccountModule
+  // ), },
   {
     path: '',
     redirectTo: defaultPath,
