@@ -1,0 +1,26 @@
+@import "../../../styles.scss";
+
+.container-account {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 3% 0;
+}
+
+.container-personal-data,
+.container-residence-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  mat-form-field input {
+    width: 24%;
+  }
+}
+
+.name {
+  width: 10% !important;
+}
+
+div mat-form-field {
+  margin: 1%;
+}

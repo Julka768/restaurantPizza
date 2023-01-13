@@ -1,0 +1,59 @@
+@import "../../../styles.scss";
+
+.container-navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $green;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.user-interface {
+  margin: 0 1px;
+}
+
+.user-interface a {
+  padding-right: 8px;
+  font-size: 27px;
+}
+
+.container-btn,
+.input-search {
+  margin: 2% 0;
+}
+
+.input-search {
+  padding-right: 55px;
+}
+
+a {
+  padding: 10px;
+  font-weight: 500;
+}
+
+a:hover {
+  cursor: pointer;
+  background-color: $background-green;
+  border-radius: 5%;
+}
+
+a:active {
+  background-color: $background-green;
+  border-radius: 5%;
+}
+
+input:focus,
+input:hover {
+  outline: 4px solid $outline-green;
+}
+
+.user-interface span {
+  color: white;
+}

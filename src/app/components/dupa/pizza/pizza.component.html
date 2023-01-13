@@ -1,0 +1,22 @@
+<section class="dish-wrapper-column">
+  <div class="dish-element">
+    <section>
+      <div class="dish-element-title">{{ pizzaName }}</div>
+      <div class="dish-element-info">{{ toppings }}</div>
+      <div class="dish-element-options">
+        <div class="dish-element-options--element">
+          Mała (32cm)
+          <span>{{ priceMini }}zł</span>
+        </div>
+        <div class="dish-element-options--element">
+          Duża (45cm)
+          <span>{{ priceBig }}zł</span>
+        </div>
+      </div>
+    </section>
+    <button class="button-website">DODAJ DO KOSZYKA</button>
+  </div>
+  <div class="dish-image">
+    <img [src]="impagePath" alt="pizza image" />
+  </div>
+</section>

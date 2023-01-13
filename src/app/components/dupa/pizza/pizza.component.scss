@@ -1,0 +1,71 @@
+@import "../../../../styles.scss";
+
+div,
+span {
+  color: white;
+}
+.dish-wrapper-column {
+  display: flex;
+  //   justify-content: space-around;
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+  justify-content: center;
+}
+
+.dish-element {
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 250px;
+  margin-bottom: 20px;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: left;
+  width: 50%;
+  margin-right: 2%;
+}
+.dish-element-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #8dc14a;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #8dc14a;
+  width: fit-content;
+  padding: 10px;
+  position: relative;
+}
+.dish-element-info {
+  font-size: 15px;
+  font-weight: normal;
+  padding: 10px;
+}
+.dish-element-options {
+  font-size: 20px;
+}
+.dish-element-options--element {
+  padding: 10px;
+}
+.button-website {
+  height: 40px;
+  line-height: 39px;
+  padding: 0 35px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  width: 260px;
+  background-color: $green;
+}
+.button-website:hover {
+  background-color: $background-green;
+}
+.dish-image {
+  height: 250px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  user-select: none;
+}
+img {
+  height: 250px;
+  width: 250px;
+}
